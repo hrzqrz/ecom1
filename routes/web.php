@@ -22,6 +22,9 @@ Route::get('/shop', 'ClientController@shop')->name('shop');
 Route::get('/cart', 'ClientController@cart')->name('cart');
 Route::get('/checkout', 'ClientController@checkout')->name('checkout');
 
+// Routes for admin panner
+Route::get('/admin', 'AdminController@dashboard');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

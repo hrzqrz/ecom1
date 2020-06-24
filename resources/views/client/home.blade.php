@@ -1,4 +1,5 @@
 @extends('layouts.master')
+@section('title', 'صفحه اصلی')
 @section('content')
 <section id="home-section" class="hero">
 	<div class="home-slider owl-carousel">
@@ -8,9 +9,9 @@
 				<div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
 
 					<div class="col-md-12 ftco-animate text-center">
-						<h1 class="mb-2">We serve Fresh Vegestables &amp; Fruits</h1>
-						<h2 class="subheading mb-4">We deliver organic vegetables &amp; fruits</h2>
-						<p><a href="#" class="btn btn-primary">View Details</a></p>
+						<h1 class="mb-2">تازه ترین میوه ها و  &amp; سبزی ها</h1>
+						<h2 class="subheading mb-4">ما تازه ترین میوه ها و  &amp; سبزی های را به دست مشتری می رسانیم</h2>
+						<p><a href="#" class="btn btn-primary">خرید روزانه </a></p>
 					</div>
 
 				</div>
@@ -23,9 +24,9 @@
 				<div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
 
 					<div class="col-sm-12 ftco-animate text-center">
-						<h1 class="mb-2">100% Fresh &amp; Organic Foods</h1>
-						<h2 class="subheading mb-4">We deliver organic vegetables &amp; fruits</h2>
-						<p><a href="#" class="btn btn-primary">View Details</a></p>
+						<h1 class="mb-2">100% تازه &amp; محصولات ارگانیک</h1>
+						<h2 class="subheading mb-4">تحویل میوه ها و  &amp; سبزی های ارگانیک</h2>
+						<p><a href="#" class="btn btn-primary">خرید روزانه</a></p>
 					</div>
 
 				</div>
@@ -43,8 +44,8 @@
 						<span class="flaticon-shipped"></span>
 					</div>
 					<div class="media-body">
-						<h3 class="heading">Free Shipping</h3>
-						<span>On order over $100</span>
+						<h3 class="heading">خرید بدون محدویت </h3>
+						<span>سفارش بالای 500 هزار تومان</span>
 					</div>
 				</div>
 			</div>
@@ -54,8 +55,8 @@
 						<span class="flaticon-diet"></span>
 					</div>
 					<div class="media-body">
-						<h3 class="heading">Always Fresh</h3>
-						<span>Product well package</span>
+						<h3 class="heading">همیشه تازه</h3>
+						<span>بسته بندی  بهداشتی</span>
 					</div>
 				</div>
 			</div>
@@ -65,8 +66,8 @@
 						<span class="flaticon-award"></span>
 					</div>
 					<div class="media-body">
-						<h3 class="heading">Superior Quality</h3>
-						<span>Quality Products</span>
+						<h3 class="heading">کیفیت عالی</h3>
+						<span>محصولات با کیفیت</span>
 					</div>
 				</div>
 			</div>
@@ -76,8 +77,8 @@
 						<span class="flaticon-customer-service"></span>
 					</div>
 					<div class="media-body">
-						<h3 class="heading">Support</h3>
-						<span>24/7 Support</span>
+						<h3 class="heading">پشتیبانی</h3>
+						<span>بشتیبانی 24 ساعته هفت روز هفته</span>
 					</div>
 				</div>
 			</div>
@@ -94,9 +95,9 @@
 						<div class="category-wrap-2 ftco-animate img align-self-stretch d-flex"
 							style="background-image: url(frontend/images/category.jpg);">
 							<div class="text text-center">
-								<h2>Vegetables</h2>
-								<p>Protect the health of every home</p>
-								<p><a href="#" class="btn btn-primary">Shop now</a></p>
+								<h2>سبزیجات</h2>
+								<p>تضمین سلامت خانه و خانواده</p>
+								<p><a href="#" class="btn btn-primary">خرید</a></p>
 							</div>
 						</div>
 					</div>
@@ -104,13 +105,13 @@
 						<div class="category-wrap ftco-animate img mb-4 d-flex align-items-end"
 							style="background-image: url(frontend/images/category-1.jpg);">
 							<div class="text px-3 py-1">
-								<h2 class="mb-0"><a href="#">Fruits</a></h2>
+								<h2 class="mb-0"><a href="#">میوه ها</a></h2>
 							</div>
 						</div>
 						<div class="category-wrap ftco-animate img d-flex align-items-end"
 							style="background-image: url(frontend/images/category-2.jpg);">
 							<div class="text px-3 py-1">
-								<h2 class="mb-0"><a href="#">Vegetables</a></h2>
+								<h2 class="mb-0"><a href="#">سبزیجات</a></h2>
 							</div>
 						</div>
 					</div>
@@ -121,13 +122,13 @@
 				<div class="category-wrap ftco-animate img mb-4 d-flex align-items-end"
 					style="background-image: url(frontend/images/category-3.jpg);">
 					<div class="text px-3 py-1">
-						<h2 class="mb-0"><a href="#">Juices</a></h2>
+						<h2 class="mb-0"><a href="#">آب میوه ها</a></h2>
 					</div>
 				</div>
 				<div class="category-wrap ftco-animate img d-flex align-items-end"
 					style="background-image: url(frontend/images/category-4.jpg);">
 					<div class="text px-3 py-1">
-						<h2 class="mb-0"><a href="#">Dried</a></h2>
+						<h2 class="mb-0"><a href="#">خشکبار</a></h2>
 					</div>
 				</div>
 			</div>
@@ -139,9 +140,9 @@
 	<div class="container">
 		<div class="row justify-content-center mb-3 pb-3">
 			<div class="col-md-12 heading-section text-center ftco-animate">
-				<span class="subheading">Featured Products</span>
-				<h2 class="mb-4">Our Products</h2>
-				<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+				<span class="subheading">محصولات ویژه</span>
+				<h2 class="mb-4">محصولات ما</h2>
+				<p>ارائه مصحولات باکیفیت از بهترین مزارع کشور</p>
 			</div>
 		</div>
 	</div>
@@ -155,7 +156,7 @@
 						<div class="overlay"></div>
 					</a>
 					<div class="text py-3 pb-4 px-3 text-center">
-						<h3><a href="#">Bell Pepper</a></h3>
+						<h3><a href="#">فلفل دلمه ای</a></h3>
 						<div class="d-flex">
 							<div class="pricing">
 								<p class="price"><span class="mr-2 price-dc">$120.00</span><span
@@ -186,7 +187,7 @@
 						<div class="overlay"></div>
 					</a>
 					<div class="text py-3 pb-4 px-3 text-center">
-						<h3><a href="#">Strawberry</a></h3>
+						<h3><a href="#">توت فرنگی</a></h3>
 						<div class="d-flex">
 							<div class="pricing">
 								<p class="price"><span>$120.00</span></p>
@@ -216,7 +217,7 @@
 						<div class="overlay"></div>
 					</a>
 					<div class="text py-3 pb-4 px-3 text-center">
-						<h3><a href="#">Green Beans</a></h3>
+						<h3><a href="#">لوبیا سبز</a></h3>
 						<div class="d-flex">
 							<div class="pricing">
 								<p class="price"><span>$120.00</span></p>
@@ -246,7 +247,7 @@
 						<div class="overlay"></div>
 					</a>
 					<div class="text py-3 pb-4 px-3 text-center">
-						<h3><a href="#">Purple Cabbage</a></h3>
+						<h3><a href="#">کلم بنفش</a></h3>
 						<div class="d-flex">
 							<div class="pricing">
 								<p class="price"><span>$120.00</span></p>
@@ -279,7 +280,7 @@
 						<div class="overlay"></div>
 					</a>
 					<div class="text py-3 pb-4 px-3 text-center">
-						<h3><a href="#">Tomatoe</a></h3>
+						<h3><a href="#">گوجه فرنگی</a></h3>
 						<div class="d-flex">
 							<div class="pricing">
 								<p class="price"><span class="mr-2 price-dc">$120.00</span><span
@@ -310,7 +311,7 @@
 						<div class="overlay"></div>
 					</a>
 					<div class="text py-3 pb-4 px-3 text-center">
-						<h3><a href="#">Brocolli</a></h3>
+						<h3><a href="#">کلم بروکلی</a></h3>
 						<div class="d-flex">
 							<div class="pricing">
 								<p class="price"><span>$120.00</span></p>
@@ -340,7 +341,7 @@
 						<div class="overlay"></div>
 					</a>
 					<div class="text py-3 pb-4 px-3 text-center">
-						<h3><a href="#">Carrots</a></h3>
+						<h3><a href="#">هویج</a></h3>
 						<div class="d-flex">
 							<div class="pricing">
 								<p class="price"><span>$120.00</span></p>
@@ -370,7 +371,7 @@
 						<div class="overlay"></div>
 					</a>
 					<div class="text py-3 pb-4 px-3 text-center">
-						<h3><a href="#">Fruit Juice</a></h3>
+						<h3><a href="#">آب میوه طبیعی</a></h3>
 						<div class="d-flex">
 							<div class="pricing">
 								<p class="price"><span>$120.00</span></p>
@@ -401,11 +402,11 @@
 	<div class="container">
 		<div class="row justify-content-end">
 			<div class="col-md-6 heading-section ftco-animate deal-of-the-day ftco-animate">
-				<span class="subheading">Best Price For You</span>
-				<h2 class="mb-4">Deal of the day</h2>
-				<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-				<h3><a href="#">Spinach</a></h3>
-				<span class="price">$10 <a href="#">now $5 only</a></span>
+				<span class="subheading">بهترین قیمت ها برای شما</span>
+				<h2 class="mb-4">نرخ روغ</h2>
+				<p>ارائه محصولات از بهترین مزارع کشور </p>
+				<h3><a href="#">اسفناج</a></h3>
+				<span class="price">$10 <a href="#">فقط امروز $5 </a></span>
 				<div id="timer" class="d-flex mt-5">
 					<div class="time" id="days"></div>
 					<div class="time pl-3" id="hours"></div>
