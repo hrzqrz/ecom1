@@ -23,7 +23,8 @@ Route::get('/cart', 'ClientController@cart')->name('cart');
 Route::get('/checkout', 'ClientController@checkout')->name('checkout');
 
 // Routes for admin panner
-Route::get('/admin', 'AdminController@dashboard');
+Route::get('/admin', 'AdminController@dashboard')->name('admin');
+Route::resource('/admin/categories', 'CategoryController');
 
 Auth::routes();
 
