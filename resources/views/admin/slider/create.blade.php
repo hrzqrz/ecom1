@@ -26,7 +26,7 @@
                                 </div>
 
                               <div class="form-group">
-                                <label for="status">وضعیت اسلاید</label><br>
+                                <label for="status">وضعیت اسلاید </label><br>
                                  وضعیت &nbsp;<input type="checkbox" name="status" id="status"> 
                             </div>
                                 
