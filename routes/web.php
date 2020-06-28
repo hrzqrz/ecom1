@@ -25,6 +25,7 @@ Route::get('/checkout', 'ClientController@checkout')->name('checkout');
 // Routes for admin panner
 Route::get('/admin', 'AdminController@dashboard')->name('admin');
 Route::resource('/admin/categories', 'CategoryController');
+Route::resource('/admin/products', 'ProductController');
 
 Auth::routes();
 

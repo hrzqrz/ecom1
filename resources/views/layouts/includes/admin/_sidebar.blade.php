@@ -15,7 +15,7 @@
         <div class="collapse" id="form-elements">
           <ul class="nav flex-column sub-menu">
             <li class="nav-item"><a class="nav-link" href="{{route('categories.create')}}">گروه جدید</a></li>
-          <li class="nav-item"><a class="nav-link" href="#"> محصول جدید</a></li>
+          <li class="nav-item"><a class="nav-link" href="{{route('products.create')}}"> محصول جدید</a></li>
             <li class="nav-item"><a class="nav-link" href="validation.html">اسلایدر صفحه اصلی</a></li>
             <li class="nav-item"><a class="nav-link" href="wizard.html">Wizard</a></li>
           </ul>
