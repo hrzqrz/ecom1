@@ -6,8 +6,13 @@ use Illuminate\Http\Request;
 
 class SliderController extends Controller
 {
-    public function index()
+    public function create()
     {
         return view('admin.slider.create');
+    }
+
+    public function index()
+    {
+        return view('admin.slider.index');
     }
 }

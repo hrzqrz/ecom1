@@ -30,8 +30,8 @@
         <div class="collapse" id="tables">
           <ul class="nav flex-column sub-menu">
             <li class="nav-item"> <a class="nav-link" href="{{route('categories.index')}}">مشاهده گروه بندی ها</a></li>
-            <li class="nav-item"> <a class="nav-link" href="data-table.html">مشاهده محصولات</a></li>
-            <li class="nav-item"> <a class="nav-link" href="js-grid.html">مشاهده اسلاید ها</a></li>
+            <li class="nav-item"> <a class="nav-link" href="{{route('products.index')}}">مشاهده محصولات</a></li>
+            <li class="nav-item"> <a class="nav-link" href="{{route('slider.index')}}">مشاهده اسلاید ها</a></li>
             <li class="nav-item"> <a class="nav-link" href="sortable-table.html">Sortable table</a></li>
           </ul>
         </div>
