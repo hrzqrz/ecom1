@@ -26,6 +26,7 @@ Route::get('/checkout', 'ClientController@checkout')->name('checkout');
 Route::get('/admin', 'AdminController@dashboard')->name('admin');
 Route::resource('/admin/categories', 'CategoryController');
 Route::resource('/admin/products', 'ProductController');
+Route::get('/admin/slider', 'SliderController@index')->name('slider.create');
 
 Auth::routes();
 
